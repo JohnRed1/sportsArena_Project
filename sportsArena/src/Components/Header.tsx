@@ -81,7 +81,8 @@ export function Header() {
           {/* If signed in, show UserButton. If not, show Get Started */}
 
           <SignedIn>
-            <UserButton />
+            {/* Use 'icon' size to show only the avatar without text */}
+            <UserButton size="icon" />
           </SignedIn>
 
           <SignedOut>
