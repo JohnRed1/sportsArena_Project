@@ -49,7 +49,7 @@ export function HeroSection() {
         {/* Right Column: Hero Image */}
         <div className="flex justify-center items-center">
           <img
-            src="../public/Tagline_img.webp"
+            src="../assets/Tagline_img.webp"
             alt="SportsArena Hero"
             className="w-full max-w-lg object-contain drop-shadow-xl"
           />
