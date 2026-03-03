@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 import { SignedIn, SignedOut } from "@neondatabase/neon-js/auth/react/ui";
+import taglineImg from "../../assets/Tagline_img.webp";
 
 export function HeroSection() {
   return (
@@ -49,7 +50,7 @@ export function HeroSection() {
         {/* Right Column: Hero Image */}
         <div className="flex justify-center items-center">
           <img
-            src="../assets/Tagline_img.webp"
+            src={taglineImg}
             alt="SportsArena Hero"
             className="w-full max-w-lg object-contain drop-shadow-xl"
           />
