@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import '@neondatabase/neon-js/ui/tailwind';
+
+:root {
+  /* Neon Auth Theme Variables */
+  --neon-auth-primary-color: #22c55e;
+  --neon-auth-primary-foreground-color: #ffffff;
+  --neon-auth-background-color: transparent;
+  --neon-auth-foreground-color: #ffffff;
+  --neon-auth-muted-foreground-color: #9ca3af;
+  --neon-auth-border-color: #374151;
+}
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html,body{
+ -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: "Raleway", sans-serif;
+  
+}
